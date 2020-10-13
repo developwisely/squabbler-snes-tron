@@ -2,7 +2,7 @@
 <skin name="SNES Tron" author="Squabbler" type="generic">
 
   <!-- Black Background -->
-	<background name="Black" image="input-display-overlay.png" />
+  <background name="Black" image="input-display-overlay.png" />
   
   <!-- Chroma Green Background -->
   <background name="Chroma Green" image="input-display-overlay-chroma.png" />
