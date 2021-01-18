@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin name="NES Tron" author="Squabbler" type="generic">
+
+  <!-- Black Background -->
+	<background name="Black" image="input-display-overlay.png" />
+  
+  <!-- Chroma Green Background -->
+  <background name="Chroma Green" image="input-display-overlay-chroma.png" />
+  
+  <!-- D-PAD #################
+  <button name="b2" image="button-dpad.png" x="41" y="16" width="30" height="30" />
+  <button name="b3" image="button-dpad.png" x="71" y="45" width="30" height="30" />
+  <button name="b1" image="button-dpad.png" x="41" y="74" width="30" height="30" />
+  <button name="b0" image="button-dpad.png" x="11" y="45" width="30" height="30" />
+  -->
+  <!-- C-UP -->
+  <rangebutton name="y" image="button-dpad.png" x="41" y="16" width="30" height="30" from="-1" to="-0.1" />
+  <rangebutton name="x" image="button-dpad.png" x="71" y="45" width="30" height="30" from="0.1" to="1" />
+  <rangebutton name="y" image="button-dpad.png" x="41" y="74" width="30" height="30" from="0.1" to="1" />
+  <rangebutton name="x" image="button-dpad.png" x="11" y="45" width="30" height="30" from="-1" to="-0.1" />
+
+  <!-- BUTTONS ################# -->
+  <!-- B -->
+  <button name="b3" image="button-b-a.png" x="230" y="66" width="30" height="30" />
+
+  <!-- A -->
+  <button name="b1" image="button-b-a.png" x="277" y="66" width="30" height="30" />
+
+  <!-- Select / Start -->
+  <button name="b8" image="button-select-start.png" x="113" y="75" width="42" height="16" />
+  <button name="b9" image="button-select-start.png" x="168" y="75" width="42" height="16" />
+</skin>
